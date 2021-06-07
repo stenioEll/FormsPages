@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    
+}
+
+.container {
+    height: 120vh;
+    display: flex;
+   
+}
+
+section {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    
+}
+
+section img.blue {
+
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    bottom: 100px;
+
+    
+
+}
+
+
+
+section h1 {
+    /*animation: is-bouncing 1.5s cubic-bezier(0.100, -0.100, 0.320,2.6) alternate;*/
+    color: white;
+    padding: 12px 32px;
+    font-weight: 400;
+    position: relative;
+    font-size: 2rem;
+    bottom: 225px;
+    
+
+}
+section h2 {
+    /*animation: is-bouncing 2s cubic-bezier(0.100, -0.100, 0.320,2.6) alternate;*/
+    color: white;
+    padding: 12px 32px;
+    font-weight: 200;
+    position: center;
+    font-size: 1rem;
+    position: relative;
+    bottom: 225px;
+    
+
+}
+
+
+/*
+@keyframes is-falling{
+    to {
+        transform: translateY(40px);
+    }
+}
+
+@keyframes is-bouncing{
+    to {
+        transform: translateY(20px);
+    }
+}
+
+*/
+
+
+
+.esquerda .boy {
+    display: flex;
+    width: 451px;
+    height: 473px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+    position: relative;
+    bottom: 213px;
+    
+
+    
+}
+
+
+.esquerda, .direita {
+    height: 100%;
+}
+.esquerda {
+    width: 50%;
+    height: 20vm;
+    background-color: #77B1FF;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.direita {
+    height: 100vm;
+    width: 50%;
+    background-color: #BBD4F5;
+    display: flex;
+    flex-direction: column;
+}
+
+div .perfil img {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    
+}
+
+.container2 {
+    background: white;
+    max-width: 900px;
+    min-height: 40vh;
+    margin-bottom: -100px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    
+   
+    
+}
+
+
+
+
+
+.input-field span {
+    margin-top: 1rem;
+    color: #866F56;
+}
+
+.input-field:first-child{
+    margin-bottom: 1.5rem;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    outline: none;
+    position: relative;
+}
+
+
+
+.input-field input::placeholder {
+    display: flex;
+    flex-direction: column;
+    outline: none;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.underline::before  {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+
+}
+
+.underline::after  {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    background: #77B1FF ;  
+    transform: scaleX(0); 
+    transition: all .3s ease-in-out;
+    transform-origin: left;
+
+}
+
+.input-field input:focus ~ .underline::after{
+    transform: scaleX(1); 
+
+
+}
+main form input{
+    
+    
+    background-color: white;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 0 0.5rem;
+    margin-top: 0;
+    outline: none;
+
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+
+}
+
+section input[type="submit"]{
+    
+    justify-items: left;
+    margin-right: 1.5rem;
+    position: center;
+    width: 50%;
+    height: 30px;
+    cursor: pointer;
+    color: white;
+    background-color: #FF8C0A;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 32px;
+    transition: all 0.3s ease;
+}
+
+
+
+section input[value="CADASTRO"]{
+
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    color: #373837;
+    border: 1px solid #373837;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    margin-right: 0;
+    
+    
+
+}
+
+section input[type="submit"]:hover{
+    letter-spacing: 0.5px;
+    background-color: #77B1FF;
+    color: white;
+    border: none;
+
+}
+
+
+
